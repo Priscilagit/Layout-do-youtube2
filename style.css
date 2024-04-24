@@ -1,0 +1,40 @@
+.container {
+    margin: 0;
+    width: 1440px;
+    display: grid;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 24px 0 24px;
+
+}
+
+aside {
+    display: grid;   
+    padding: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 50px);
+    
+}
+aside img{
+  
+    height: 30px;
+    
+}
+.container-2 {
+
+    display: flex;
+    padding-top: 50px;
+}
+
+.videos {
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px;
+
+}
